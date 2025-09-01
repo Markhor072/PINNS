@@ -36,6 +36,7 @@ This framework provides a structured implementation to easily experiment with di
 
 ## 📁 Repository Structure
 PINNS/
+
 ├── notebooks/ # Jupyter notebooks for each PDE example
 
 │ ├── 01_Heat_Equation.ipynb
