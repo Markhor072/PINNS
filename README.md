@@ -35,3 +35,22 @@ This framework provides a structured implementation to easily experiment with di
 - **Interactive Development**: Jupyter Notebook
 
 ## 📁 Repository Structure
+PINNS/
+├── notebooks/ # Jupyter notebooks for each PDE example
+
+│ ├── 01_Heat_Equation.ipynb
+│ ├── 02_Burgers_Equation.ipynb
+│ ├── 03_Allen_Cahn_Equation.ipynb
+│ └── 04_Wave_Equation.ipynb
+
+├── src/ # Core Python source modules
+│ ├── pinns.py # Main PINNs model class
+│ ├── data_generator.py # Utilities for generating training data (collocation points, BCs, ICs)
+│ ├── losses.py # Custom loss functions (PDE loss, BC loss, IC loss)
+│ └── visualize.py # Functions for plotting results
+
+├── outputs/ # Directory for saved models, plots, and results
+
+├── requirements.txt # Python dependencies
+
+└── README.md
